@@ -3,7 +3,8 @@ import { Routes, RouterModule } from '@angular/router';
 
 
 export const routes: Routes = [
-
+    // all the routes will be listed here (URLs)
+    
 ]
 
 @NgModule({
