@@ -3,9 +3,9 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { TasksModule } from './tasks';
+import { TasksModule } from './tasks'; //importado com o autoimport
 
-@NgModule({
+@NgModule({ 
   declarations: [
     AppComponent
   ],
