@@ -2,9 +2,7 @@ import { Injectable } from '@angular/core';
 
 import { Task } from './';
 
-@Injectable({
-  providedIn: 'root'
-})
+@Injectable()
 export class TaskService {
 
   constructor() { }
