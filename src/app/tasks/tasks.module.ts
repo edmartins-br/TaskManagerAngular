@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { Task, TaskService } from './shared';
-import { ListTaskComponent } from './list-task/list-task.component'; // imported by autoimport extension
+import { TaskService } from './shared';
+import { ListTaskComponent } from './list-task'; // imported by autoimport extension
 
 
 
