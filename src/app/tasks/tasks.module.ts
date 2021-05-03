@@ -8,13 +8,15 @@ import { RouterModule } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 
 import { RegisterTaskComponent } from './register/register-task.component';
+import { EditTaskComponent } from './edit/edit-task.component';
 
 
 
 @NgModule({
   declarations: [
     ListTaskComponent,
-    RegisterTaskComponent
+    RegisterTaskComponent,
+    EditTaskComponent
   ],
   imports: [
     CommonModule,
