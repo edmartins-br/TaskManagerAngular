@@ -24,4 +24,11 @@ export class ListTaskComponent implements OnInit {
     return this.TaskService.listAll();
   }
 
+  remove($event: any, task: Task): void {
+    $event.preventDefault(); // disable pge update - necessary to remove
+    if (confirm('Deseja rmover a tarefa "' + task.name +'"?'))
+      this.TaskService.remove(task.id);
+      this.tasks = this.listAll();
+  }
+
 }
