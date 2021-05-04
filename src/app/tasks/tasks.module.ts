@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { TaskService } from './shared';
+import { TaskDoneDirective, TaskService } from './shared';
 import { ListTaskComponent } from './list-task'; // imported by autoimport extension
 
 import { RouterModule } from '@angular/router';
@@ -16,7 +16,8 @@ import { EditTaskComponent } from './edit/edit-task.component';
   declarations: [
     ListTaskComponent,
     RegisterTaskComponent,
-    EditTaskComponent
+    EditTaskComponent,
+    TaskDoneDirective
   ],
   imports: [
     CommonModule,

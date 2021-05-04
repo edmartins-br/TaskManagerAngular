@@ -15,6 +15,7 @@
     </tr>
     <tr *ngFor="let task of tasks"> <!-- ngFor é uam diretiva do angular -->
       <td
+          [taskDone]="task.done"
           [class.success]="!task.done">
           {{ task.name }}
       </td>
